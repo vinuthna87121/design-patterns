@@ -1,0 +1,11 @@
+package com.java.designpatterns.command;
+
+public class Light {
+	public void turnOn() {
+		System.out.println("light is on");
+	}
+	public void turnOff() {
+		System.out.println("light is off");
+	}
+
+}
